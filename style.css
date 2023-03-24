@@ -1,4 +1,8 @@
+/* FONTS USED */
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+/* RESTYLING */
 
 *{
     margin: 0;
@@ -6,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* REUSABLE CLASSES */
 
 p{
     font-family: 'Barlow', sans-serif;
@@ -14,3 +19,5 @@ p{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fraunces', serif;
 }
+
+/* HERO SECTION */
