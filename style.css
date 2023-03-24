@@ -12,7 +12,7 @@
 
 /* REUSABLE CLASSES */
 
-p{
+p , a{
     font-family: 'Barlow', sans-serif;
 }
 
@@ -20,4 +20,143 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Fraunces', serif;
 }
 
+:root{
+ --Softred--: hsl(7, 99%, 70%);
+ --Yellow--: hsl(51, 100%, 49%);
+ --Dark-desaturated-cyan-graphic-design-text--: hsl(167, 40%, 24%);
+ --Dark-blue-photography-text-: hsl(198, 62%, 26%);
+ --Dark-moderate-cyan-footer-: hsl(168, 34%, 41%);
+ --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+ --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+ --Dark-grayish-blue: hsl(232, 10%, 55%);
+ --Grayish-blue--: hsl(210, 4%, 67%);
+ --White--: hsl(0, 0%, 100%);
+}
+
 /* HERO SECTION */
+
+#hero{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url(images/desktop/image-header.jpg);
+ height: 500px;
+ width: auto;
+}
+
+.navbar{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 1720px;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.nav-links{
+    margin-left: auto;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-links{
+    list-style: none;
+}
+
+.navbar-links > button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+.cta>a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Fraunces', serif;;
+    text-align: center;
+}
+
+.nav_links > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hero-body{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.hero-arrow{
+    padding-top: 40px;
+}
+
+.hero-text{
+    font-size: 50px;
+    color: var(--White--);
+}
+
+.feautres-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.feautres-1-text{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.feautres-1-img-mobile{
+    display: none;
+}
+
+.feautres-1-images{
+   flex: 50%;
+}
+
+.feautres-1-desktop{
+    flex: 50%;
+}
+
+.feautres-text1{
+    margin-bottom: 1rem;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.feautres-text-1{
+    margin-bottom: 1rem;
+    color: var(--Grayish-blue--);
+}
+
+.feautres-text-link{
+    color: var(--Very-dark-desaturated-blue);
+    text-decoration: var(--Yellow--) underline solid 3px;
+    font-family: 'Fraunces', serif;
+}
+
+.feautres-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+}
+
+.feautres-2-mobile-img{
+    display: none;
+}
+
+.feautres-2-mobile-desktop{
+    width: 563px;
+}
