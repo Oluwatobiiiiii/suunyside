@@ -481,6 +481,10 @@ footer{
         max-height: 100%;
         background-size: cover;
     }
+    
+    .nav-link{
+        display: none;
+    }
 
     /* .navbar{
         width: 100%;
@@ -503,12 +507,12 @@ footer{
         background-color: var(--Yellow--);
     } */
 
-    .navbar-links.active{
+    /* .navbar-links.active{
         position: absolute;
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
+    } */
 
     .cta-btn{
         margin-left: 3rem;
@@ -526,7 +530,7 @@ footer{
    .feautres-1-img-mobile{
       display: block;
       height: fit-content;
-      width: 100%;
+      max-width: 100%;
       flex: 50%;
    }
 
